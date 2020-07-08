@@ -1,0 +1,132 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E5E5E5;
+}
+
+.header {
+    background-color: #F0FFF0;
+}
+
+p {
+    color: #585859;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    padding: 12px 22px;
+    color: black;
+}
+
+.signbtn {
+    background: #21B573;
+    border-radius: 33px;
+    /* padding: 12px 28px; */
+}
+
+.header p {
+    font-size: 16px;
+    color: #FD511A;
+}
+
+.header h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.header .startbtn {
+    background-color: #21B573;
+    border-radius: 25px;
+    color: white;
+    padding: 10px 30px;
+}
+
+.element {
+    text-align: center;
+    padding: 50px 0px;
+    border-radius: 10px;
+    background-color: #F8FFFB;
+}
+
+.element:hover {
+    background-color: #fff;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.courselist h2 {
+    padding: 50px 0;
+    font-size: 36px;
+    font-weight: bold;
+    color: #413960;
+}
+
+.course {
+    padding: 15px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.course h3 {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #413960;
+}
+
+.course i {
+    font-size: 24px;
+    padding-right: 5px;
+}
+
+#coursebtn {
+    padding: 5px 25px;
+    background-color: #21B573;
+    color: white;
+    border-radius: 25px;
+    border: none;
+}
+
+.testimonial {
+    padding: 60px 0;
+}
+
+.testimonial h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.testimonial .wrapper {
+    padding-top: 20px;
+    padding-left: 50px;
+    width: 580px;
+    font-size: 16px;
+}
+
+.footer-section {
+    background-color: black;
+    padding: 40px 0;
+}
+
+.footer-section h5 {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+.footer-section p {
+    font-weight: 200;
+    font-size: 16px;
+    color: white;
+}
+
+.footer-section a {
+    display: block;
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 16px;
+    color: white;
+}
+
+footer {
+    margin-top: 50px;
+}
