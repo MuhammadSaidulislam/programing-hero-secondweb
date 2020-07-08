@@ -55,7 +55,7 @@ p {
 
 .element:hover {
     background-color: #fff;
-    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
 }
 
 .categhorylist {
@@ -77,7 +77,16 @@ p {
     padding: 15px;
     background-color: white;
     border-radius: 15px;
-    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.card-body {
+    margin-top: 10px;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 0px;
 }
 
 .course h3 {
@@ -147,4 +156,12 @@ p {
 
 footer {
     margin-top: 50px;
+}
+
+.imgcircle {
+    border-radius: 50%;
+}
+
+.teacherlist {
+    padding: 25px 10px;
 }
